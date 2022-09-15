@@ -52,6 +52,7 @@ function toggleDesktopMenu() {
   function openProducDetailAside(){
     cardsContainer.classList.add('inactive');
     openProducDetailContainer.classList.remove('inactive')
+    aside.classList.toggle('inactive');
   }
   function closeProducDetalIconAside() {
     openProducDetailContainer.classList.add('inactive')
